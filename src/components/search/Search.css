@@ -1,0 +1,19 @@
+input{
+    margin: auto;
+    background-color: #E5E4E2;
+    color: black;
+    margin-left: 37vw;
+    margin-top: 4vw;
+    padding-left: 20px;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    width: 30vw;
+    padding-top: 10px;
+    border-radius:3px
+}
+@media (max-width: 768px) {
+    input{
+        margin-left: 24vw;
+    }
+  } 
