@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import ImageResults from '../imageResults/ImageResults';
 import '../search/Search.css'
+import image from "../search/image.jpg";
 class Search extends Component{
     state={
         searchText:'',
@@ -30,13 +31,16 @@ class Search extends Component{
         console.log(this.state.images);
         return(
         <div>
+        <img src={image} className='searchImage' alt="image" />
         <input type="text" placeholder="Search for images"
         name="searchText"
         value={this.state.searchText}
         onChange={this.onTextChange}
         />  <i class="fas fa-search"></i>
+        
     <br/>    
     {this.state.images.length>0?(<ImageResults images={this.state.images}/>):null}
+
         </div>
         )
     }

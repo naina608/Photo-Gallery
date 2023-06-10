@@ -3,17 +3,24 @@ input{
     background-color: #E5E4E2;
     color: black;
     margin-left: 37vw;
-    margin-top: 4vw;
+    margin-top: 19vw;
     padding-left: 20px;
     outline: none;
     text-align: center;
     font-size: 20px;
     width: 30vw;
     padding-top: 10px;
-    border-radius:3px
+    border-radius:3px;
+    z-index:'100';
+}
+.searchImage{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
 @media (max-width: 768px) {
     input{
-        margin-left: 24vw;
+        margin-left: 35vw;
     }
   } 
