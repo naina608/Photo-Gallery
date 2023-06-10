@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Photo-Gallery/static/css/main.2db01da0.css",
+    "main.js": "/Photo-Gallery/static/js/main.e5b97d14.js",
+    "static/media/image.jpg": "/Photo-Gallery/static/media/image.6375ad9903a974e965b0.jpg",
+    "index.html": "/Photo-Gallery/index.html",
+    "main.2db01da0.css.map": "/Photo-Gallery/static/css/main.2db01da0.css.map",
+    "main.e5b97d14.js.map": "/Photo-Gallery/static/js/main.e5b97d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2db01da0.css",
+    "static/js/main.e5b97d14.js"
+  ]
+}
